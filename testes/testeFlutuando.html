@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IMG flutuando</title>
+    <!--<link rel="stylesheet" href="flutuando.css">-->
+
+</head>
+<body>
+    <img src="bebeAfinal.png" alt="bebe menina" class="logo">
+    <style>
+        .logo{
+            animation: float 3s ease-in-out infinite;
+        }
+        @keyframes float{
+            0%{
+                transform: translateY(0);
+            }
+            50%{
+                transform: translateY(-25px);
+            }
+            100%{
+                transform: translateY(0);
+            }
+        }
+    </style> 
+</body>
+</html>
